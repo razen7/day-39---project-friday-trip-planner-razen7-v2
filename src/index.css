@@ -1,13 +1,106 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Personal Default CSS Resets - Compulsory */
+:root {
+  --the-red-fence: 2px solid red;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+button {
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Personal Default CSS Resets - Optional */
+body {
+  background-color: rgb(233, 233, 255);
+}
+
+.main-container {
+  height: 100vh;
+}
+
+/* Custom Site Css */
+
+.login-container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container form{
+  background-color: #E8FFFF;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px;
+}
+
+.login-container form input{
+  padding:2px;
+  width: 250px;
+}
+
+.login-container a{
+  font-size: 8px;
+}
+
+.login-container h3{
+  text-align: center;
+}
+
+.signup-container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-container form{
+  background-color: #E8FFFF;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px;
+}
+
+.signup-container form input{
+  padding:2px;
+  width: 250px;
+}
+
+.signup-container a{
+  font-size: 8px;
+}
+
+.signup-container h3{
+  text-align: center;
+}
+
+.addtrip-container{
+  margin: 1em;
+}
+
+.selected-locations-container{
+  background-color: #E8FFFF;
+  height: 100px;
+  border-radius: 5px;
+  padding: 3px;
 }

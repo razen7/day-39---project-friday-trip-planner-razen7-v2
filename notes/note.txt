@@ -1,0 +1,6 @@
+https://github.com/McLaren-College/day-39---project-friday-trip-planner-razen7
+
+get CSS reference from react test
+
+user: hopeful.raz@gmail.com
+password: 123456
